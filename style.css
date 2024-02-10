@@ -1,0 +1,85 @@
+@font-face {
+  font-family: beachyFont;
+  src: url(beachday.ttf);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("images/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Georgia, Aparjita;
+  height: 100vw;
+  align-items: flex-start;
+}
+
+.title {
+  text-align: center;
+  font-size: 5rem;
+  -webkit-text-stroke: 0.1rem #426E7E;
+  letter-spacing: 0.1rem;
+  color: #92B08B;
+  position: static;
+  font-family: "beachyFont";
+}
+
+a {
+  text-decoration: none;
+  color: #426E7E;
+  -webkit-text-stroke: 0.1rem #292828;
+}
+
+.learn {
+  font-size: 3rem;
+  background-color: #f4dfc2;
+  border: solid 0.2rem #cab9a0;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+  -webkit-text-stroke: 0.1rem #292828;
+  scale: 0.9;
+  opacity: 0.8;
+  color: #426E7E;
+}
+
+.learn:hover {
+  scale: 1;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.team {
+  font-size: 3rem;
+  background-color: #f4dfc2;
+  border: solid 0.2rem #cab9a0;
+  padding: 1rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  border-radius: 1rem;
+  -webkit-text-stroke: 0.1rem #292828;
+  scale: 0.9;
+  opacity: 0.8;
+  color: #426E7E;
+}
+
+.team:hover {
+  scale: 1;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.tabs {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  font-family: "beachyFont";
+}

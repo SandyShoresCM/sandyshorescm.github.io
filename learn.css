@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Hero';
+  src: url('Hero-Regular.otf');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/learnbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body {
+  font-family: 'Hero';
+}
+
+.navbar {
+  margin-top: -1rem;
+  display: flex;
+  background-color: #9BB48A;
+  justify-content: center;
+  border: solid 0.2rem #66856a;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.logo {
+  max-width: 4rem;
+  max-height: 2rem;
+  transform: translateY(3.5rem) translateX(-5rem);
+}
+
+.logo:hover {
+  scale: 1.2;
+  transform: translateY(3rem) translateX(-5rem);
+}
+
+.entire {
+  display: flex;
+}
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  /* Center the content */
+}
+
+.container {
+  display: block;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+.first-paragraph {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.second-paragraph {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.pics {
+  text-align: center;
+  margin: 1rem;
+}
+
+.container img {
+  margin: 1rem;
+  border: solid #299e9e 0.2rem;
+  border-radius: 1rem;
+}
+
+.groins {
+  margin-left: 3rem;
+  text-align: left;
+}
+
+.groin {
+  max-width: 300px;
+  max-height: 300px;
+  margin-right: 5rem;
+  transform: translateY(-60px);
+}
+
+.jetties {
+  text-align: right;
+  margin-right: 3rem;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jetty {
+  max-width: 300px;
+  max-height: 300px;
+  transform: translateY(-60px) translateX(50px);
+}
+
+main {
+  text-align: center;
+}
